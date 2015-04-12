@@ -7,12 +7,15 @@ define('UPLOAD_PATH', __DIR__ . '/static/uploads');
 
 date_default_timezone_set('Etc/GMT-5');
 setlocale(LC_TIME, 'ru_RU.UTF-8');
-error_reporting(-1);
-ini_set('display_errors', 1);
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $app = Keikogi\Application\Application::get(array(), true);
+
+if ($app['debug']) {
+    error_reporting(-1);
+    ini_set('display_errors', 1);
+}
 
 $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 $app->register(new Silex\Provider\SessionServiceProvider());
