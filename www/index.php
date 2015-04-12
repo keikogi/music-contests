@@ -29,7 +29,7 @@ $app->register(new Service\Contest());
 $app['session.storage.options'] = array(
     'name' => 'contests_sid',
     'cookie_lifetime' => 604800,
-    'cookie_domain' => 'music.hakama.keikogi.ru',
+    'cookie_domain' => '.keikogi.ru',
     'gc_probability' => 0,
 );
 
