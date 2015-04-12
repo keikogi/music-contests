@@ -11,7 +11,7 @@ class Contest
         $this->db = $db;
     }
 
-    public function count()
+    public function countAll()
     {
         return $this->db->contest
             ->count([]);
