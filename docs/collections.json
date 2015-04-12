@@ -1,0 +1,33 @@
+{
+    "contest": {
+        "id": "54e6e008bdb237ec0a8b4579",
+        "name": "Never Gets Old Remix Contest",
+        "description": "tl;dr",
+        "owner": "54e6e008bdb237ec0a8b4579",
+        "dates":
+        {
+            "open": "2015-02-01T00:00:00.000Z",
+            "submit": "2015-02-07T00:00:00.000Z",
+            "vote": "2015-02-14T00:00:00.000Z",
+            "close": "2015-02-21T00:00:00.000Z",
+        },
+        "options":
+        {
+
+        },
+        "judes":
+        [
+            "54e6e008bdb237ec0a8b4579",
+            "54e6e008bdb237ec0a8b4579",
+            "54e6e008bdb237ec0a8b4579",
+            "54e6e008bdb237ec0a8b4579"
+        ],
+        "members" :
+        [
+            "54e6e008bdb237ec0a8b4579",
+            "54e6e008bdb237ec0a8b4579",
+            "54e6e008bdb237ec0a8b4579",
+            "54e6e008bdb237ec0a8b4579"
+        ]
+    }
+}
