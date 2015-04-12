@@ -10,7 +10,7 @@ class Contest implements \Silex\ServiceProviderInterface
     {
         $this->app = $app;
 
-        $app['contest'] = new \Model\Contest(
+        $app['contest'] = new \Lib\Contest(
             $app['db']
         );
     }
