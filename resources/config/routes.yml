@@ -1,0 +1,7 @@
+controller_start:
+    prefix: /
+    resource: 'routing/start.yml'
+
+controller_api:
+    prefix: /api
+    resource: 'routing/api.yml'

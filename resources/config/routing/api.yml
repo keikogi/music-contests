@@ -1,0 +1,3 @@
+api_index:
+    path: /
+    defaults: { _controller: 'Controller\ApiController::index' }
